@@ -5,12 +5,12 @@ class Config {
     public $cache_time = 86400;  // in seconds e.g. 86400 = 24h
     
     /* memcache settings - only required if cache set to memcache */
-    public $cache_server = 'localhost';
-    public $cache_port = 42;
+    public $cache_server = 'countstat-php-countstat.1d35.starter-us-east-1.openshiftapps.com';
+    public $cache_port = 8080;
     public $cache_persistent = true;
     
     /* filecache settings - only required if cache set to file */
-    public $cache_directory = '/blstat/'; // needs trailing slash!
+    public $cache_directory = '/countstat/'; // needs trailing slash!
     
     /* database settings - only required to track shares */
     public $db_type = '';
